@@ -18,7 +18,66 @@ body {
 	overflow-x: hidden;
 }
 
-.con {}
+nav {
+	width: 100%;
+	background: #00316b;
+}
+
+.navbar {
+	width: 80%;
+	margin: 0 auto;
+	background: green;
+	padding: 0;
+
+}
+
+.navbar li {
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+	background: black;
+	width: 29.8%;
+}
+
+.navbar li:hover {
+	background-image: linear-gradient(red, blue)
+}
+
+.navbar li a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	text-align: center
+}
+
+p a {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	width: 100%
+}
+
+.toggle {
+	width: 100%;
+	padding: 10px 20px;
+	background: #001f44;
+	text-align: right;
+	box-sizing: border-box;
+	display: none
+}
+
+
+
+.icon {
+	color: white;
+	font-size: 30px;
+
+
+
+}
+
+
+
 
 .row {
 	max-width: 1140px;
@@ -40,6 +99,7 @@ main {
 	background: blue;
 	height: 30vh;
 	color: white;
+
 
 }
 
