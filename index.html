@@ -17,9 +17,9 @@
 <body>
 	<nav>
 		<div class="toggle">
-			<a href="https://www.youtube.com/watch?v=TXU591OYOHA&list=PLui6Eyny-UzwxbWCWDbTzEwsZnnROBTIL"><i class="ion-navicon-round icon"></i></a>
+			<i class="ion-navicon-round icon menu"></i>
 		</div>
-		<ul class="navbar">
+		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#"> About </a></li>
 			<li><a href="#">Products</a></li>
@@ -43,7 +43,15 @@
 		</div>
 	</main>
 
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.menu').click(function() {
+				$('ul').toggleClass('active');
+			})
+		})
 
+	</script>
 </body>
 
 </html>

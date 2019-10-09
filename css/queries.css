@@ -3,6 +3,7 @@
 	.box1 {
 		width: 80%
 	}
+
 }
 
 
@@ -26,15 +27,22 @@
 		display: block;
 	}
 
-	.navbar {
-		width:100%;
-		
+	ul {
+		width: 100%;
+		display: none;
+
 	}
 
-	.navbar li {
+	ul li {
 		display: block;
 		margin: 0 auto;
 
 
 	}
+
+	.active {
+		display: block;
+	}
+
+
 }
